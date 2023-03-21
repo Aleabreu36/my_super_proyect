@@ -43,15 +43,18 @@ print(f"\ndatorn visar {datorn_atgarder}, spelaren {spelaren_atgerder}.\n")
 # och påse vinner över sten. Om båda väljer samma alternativ blir det oavgjort.
 
 # Spelaren spelar tills hen vinner eller förlorar mot datorn.
+
 class atgarder:
     sten = ""
     påse = ""
     sax = ""
+
 atgarder.sten = "sten"
 atgarder.påse = "påse"
 atgarder.sax = "sax"
 
 # Välj vinnaren
+
 if spelaren_atgerder == datorn_atgarder:
     print(f"Det är avgjord,\nSpela en gång till")
 elif spelaren_atgerder == atgarder.sten:
@@ -69,4 +72,3 @@ elif spelaren_atgerder == atgarder.sax:
         print("sax vinner över påse! Spelaren vinner!")
     else:
         print("sten vinner över sax! Spelaren förlorar.")
-
