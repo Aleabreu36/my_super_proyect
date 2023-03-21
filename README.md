@@ -1,4 +1,4 @@
-my_super_proyect
+# my_super_proyect
 Projekt 3: Sten-sax-påse
 Skapa en version av spelet sten-sax-påse.
 Datorn slumpar vilken av sten, sax eller påse den ska välja.
